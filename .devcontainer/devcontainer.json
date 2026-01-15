@@ -1,10 +1,6 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
-		"ghcr.io/casl0/devcontainer-features/android-sdk:1": {}
-	},
-	"containerEnv": {
-        "ANDROID_HOME": "/usr/local/android",
-        "PATH": "$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/platform-tools"
-    }
+		"ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {}
+	}
 }
